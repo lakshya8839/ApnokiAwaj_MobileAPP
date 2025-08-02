@@ -144,6 +144,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: UserProfileSidebarWidget.routeName,
           path: UserProfileSidebarWidget.routePath,
           builder: (context, params) => UserProfileSidebarWidget(),
+        ),
+        FFRoute(
+          name: AboutTeamWidget.routeName,
+          path: AboutTeamWidget.routePath,
+          builder: (context, params) => AboutTeamWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -358,10 +358,11 @@ class _UserProfileSidebarWidgetState extends State<UserProfileSidebarWidget> {
                                   borderRadius: BorderRadius.circular(16.0),
                                 ),
                                 child: FFButtonWidget(
-                                  onPressed: () {
-                                    print('Button pressed ...');
+                                  onPressed: () async {
+                                    context
+                                        .pushNamed(AboutTeamWidget.routeName);
                                   },
-                                  text: 'ℹ️ About',
+                                  text: 'ℹ️ About Team',
                                   options: FFButtonOptions(
                                     width: double.infinity,
                                     height: 56.0,

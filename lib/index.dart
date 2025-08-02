@@ -13,3 +13,4 @@ export '/premium_features_page/premium_features_page_widget.dart'
     show PremiumFeaturesPageWidget;
 export '/user_profile_sidebar/user_profile_sidebar_widget.dart'
     show UserProfileSidebarWidget;
+export '/about_team/about_team_widget.dart' show AboutTeamWidget;
