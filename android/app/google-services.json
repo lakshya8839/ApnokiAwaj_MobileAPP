@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570429745595",
+    "project_id": "apno-ki-awaj-khn7uu",
+    "storage_bucket": "apno-ki-awaj-khn7uu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570429745595:android:8b5c7fd4c7547aed25bc9e",
+        "android_client_info": {
+          "package_name": "com.mycompany.apnokiawaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI2ali77VAwjfLSiU6yv46PZQ-_nKfjOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
